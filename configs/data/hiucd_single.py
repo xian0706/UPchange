@@ -62,6 +62,7 @@ data = dict(
     target=dict(
         type='HiUCDLoader',
         params=dict(
+            image_dir='/data1/yjx23/dataset/Hi-UCD_mini/test',
             root='/data1/yjx23/dataset/Hi-UCD_mini/test',
             transforms=Compose([
                 OneOf([
@@ -116,4 +117,5 @@ train = dict(
     eval_interval_epoch=80,
 )
 test = dict(
+
 )
